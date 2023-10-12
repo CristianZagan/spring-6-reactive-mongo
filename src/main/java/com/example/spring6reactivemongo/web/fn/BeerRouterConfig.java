@@ -30,5 +30,4 @@ public class BeerRouterConfig {
                 .DELETE(BEER_PATH_ID, accept(APPLICATION_JSON), handler::deleteBeerById)
                 .build();
     }
-
 }

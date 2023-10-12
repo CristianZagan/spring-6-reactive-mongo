@@ -157,7 +157,6 @@ public class BeerServiceImplTest {
         });
 
         await().untilTrue(atomicBoolean);
-
     }
 
     public BeerDTO getSavedBeerDto() {
